@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aggiungi Articolo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+</head>
+<body>
+<form name="formadd" method="POST" action="http://localhost:8080/">
+    <h3>
+        <i class="fa fa-plus" aria-hidden="true"></i> AGGIUNGI UN NUOVO ARTICOLO
+    </h3>
+    <br/>
+    <p><select name="campocategoria" class="campiInput" id="campocategoria">
+        <option selected disabled>Categoria</option>
+        <option value="Lavatrice ed Asciugatrice"> Lavatrici ed Asciugatrici </option>
+        <option value="Frigoriferi">  Frigoriferi </option>
+        <option value="Congelatori">  Congelatori </option>
+        <option value="Cucine e Piani Cottura">  Cucine e Piani Cottura </option>
+        <option value="Microonde e Forni Elettrici">  Microonde e Forni Elettrici </option>
+        <option value="Lavastoviglie">  Lavastoviglie </option>
+        <option value="Climatizzazione e Riscaldamento">  Climatizzazione e Riscaldamento </option>
+        <option value="Corsair">  Corsair </option>
+        <option value="Telefonia e Tablet">  Telefonia e Tablet </option>
+        <option value="TV, Audio e Home Cinema">  TV, Audio e Home Cinema </option>
+        <option value="Computer e Smart Home">  Computer e Smart Home </option>
+        <option value="Console e PC Gaming"> Console e PC Gaming </option>
+        <option value="Foto e Video Camere">  Foto e Video Camere </option>
+    </select><i class="fa fa-pencil"  aria-hidden="true"></i></p>
+    <p><select name="campomarca" class="campiInput" id="campomarca">
+        <option value="" disabled selected> Marca </option>
+        <option value="Samsung"> Samsung </option>
+        <option value="HP">  HP </option>
+        <option value="Apple">  Apple </option>
+        <option value="LG">  LG </option>
+        <option value="Huawei">  Huawei </option>
+        <option value="Nokia"> Nokia </option>
+        <option value="Lenovo">  Lenovo </option>
+        <option value="Asus">  Asus </option>
+        <option value="Acer">  Acer </option>
+        <option value="MSI">  MSI </option>
+        <option value="Gigabyte">  Gigabyte </option>
+        <option value="Cooler Master">  Cooler Master </option>
+        <option value="Corsair">  Corsair </option>
+        <option value="Intel">  Intel </option>
+        <option value="Kingston">  Kingston </option>
+        <option value="NVidia">  NVidia </option>
+        <option value="ViewSonic">  ViewSonic </option>
+    </select><i class="fa fa-pencil" aria-hidden="true"></i></p>
+    <p><input type="text" placeholder="Modello" name="campomodello" id="campomodello"></p>
+    <p><input type="text" placeholder="Colore" name="campocolore" id="campocolore"></p>
+    <p><input type="text" placeholder="Dimensioni" name="campodimensioni" id = "campodimensioni"></p>
+    <p><input type="text" placeholder="Peso" class="campiInput" id="campopeso" name="campopeso"></p>
+    <p><input type="text" placeholder="Prezzo" class="campiInput" id="campoprezzo" name="campoprezzo"></p>
+    <p><input type="text" placeholder="Disponibilita" class="campiInput" id="campodisponibilita" name="campodisponibilita"></p>
+</form>
+</div>
+<br/>
+<button type="button">Aggiungi</button>
+</body>
+</html>
